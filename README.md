@@ -4,7 +4,7 @@ This repository contains a specialized machine learning pipeline designed to cat
 
 ---
 
-## ## Project Overview
+## Project Overview
 
 The core objective is to identify and categorize various forms of climate discourse, ranging from factual relevance to specific claims regarding fossil fuels or scientific reliability. 
 
@@ -20,7 +20,7 @@ The model classifies text into 8 distinct categories:
 
 ---
 
-## ## Technical Architecture
+## Technical Architecture
 
 * **Feature Extraction**: The pipeline utilizes the `sentence-t5-large` model to transform raw text into 768-dimensional vector representations.
 * **Neural Network**: A custom PyTorch `ClimateDiscourseNet` class is implemented, featuring four linear layers with ReLU activation and Dropout (0.15) for regularization.
@@ -29,7 +29,7 @@ The model classifies text into 8 distinct categories:
 
 ---
 
-## ## Requirements
+## Requirements
 
 To run the classification pipeline, ensure the following Python libraries are installed:
 * `torch`
@@ -42,7 +42,7 @@ To run the classification pipeline, ensure the following Python libraries are in
 
 ---
 
-## ## Usage Instructions
+## Usage Instructions
 
 1. **Authentication**: Update the `AUTH_TOKEN` variable in the script with your Hugging Face access token to enable model exporting.
 2. **Dataset Configuration**:
